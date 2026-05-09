@@ -1,9 +1,10 @@
 # Picnote Legal Pages
 
-Static hosting for Picnote's legal pages, served via [jsDelivr CDN](https://www.jsdelivr.com/).
+Static hosting for Picnote's legal pages, served via [GitHub Pages](https://pages.github.com/).
 
-- [Privacy Policy](https://cdn.jsdelivr.net/gh/rouicezar/picnote-legal@v1/privacy-policy.html)
-- [Terms of Service](https://cdn.jsdelivr.net/gh/rouicezar/picnote-legal@v1/terms-of-service.html)
-- [Support](https://cdn.jsdelivr.net/gh/rouicezar/picnote-legal@v1/support.html)
+- [Privacy Policy](https://rouicezar.github.io/picnote-legal/privacy-policy.html)
+- [Terms of Service](https://rouicezar.github.io/picnote-legal/terms-of-service.html)
+- [Support](https://rouicezar.github.io/picnote-legal/support.html)
 
-Tags are pinned (`@v1`, `@v2`, ...) so the App Store binary always points at the legal text it shipped with. Update tag → submit new build to ASC.
+GitHub Pages serves the latest `main` — push to update. Source markdown lives in
+`docs/legal/` of the main `imagecut` repo; this repo only holds the rendered HTML.
